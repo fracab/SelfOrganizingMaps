@@ -1,3 +1,5 @@
+#SOM
+
 ###   CLEAN THE ENVIRONMENT ----
 
 #rm(list = ls()) 
