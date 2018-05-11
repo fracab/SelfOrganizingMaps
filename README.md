@@ -1,19 +1,14 @@
-# Project Title
+# Self Organizing Maps
 
-One Paragraph of project description goes here
+This project uses a machine learning methodology to explore spatial data and test the efficacy of the Scottish Index of Multi Deprivartion (SIMD) (Scottish Government, 2016).
 
-## Getting Started - description of SOM
+## Background
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The Self Organizing maps (SOM) is an algorithm belonging to the broad family of the Artificial Neural Networks. Given a dataset
+with multiple variables and observations it performs both (1) clustering and (2) dimensional reduction (Skupin and Agarwal, 2008).
+ Clustering means that the SOM algorithm evaluates the similarities and the differences between the observations, grouping together the ones that are more similar.  The dimensional reduction takes place when the SOM represents high dimensional data (many variables) in a 2-dimensional space, consisting of a grid of cells. These characteristics make the SOM a very good tool for initial data-mining exploration (Vesanto and Alhoniemi, 2000).
 
-### Prerequisites (packages to install)
-
-What things you need to install the software and how to install them
-
-```
-list of packages
-```
-
+## Content
 ### Folsers
 
 A step by step series of examples that tell you have to get a development env running
@@ -32,33 +27,42 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Inputs
+### Inputs
 
 Explain how to run the automated tests for this system
 
-## Otputs
+### Otputs
 
 Explain what these tests test and why
 
 ```
 Give an example
 ```
-
-## Built With
+## Requirements
+### Built With
 
 * [R](https://www.rstudio.com/)
 
-## Contributing
+### Packages to install
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+What things you need to install the software and how to install them
 
-
+```
+list of packages
+```
 
 ## Authors
 
 * **Marco Pizzolato** - *MSc GIS* -
 
-
 ## License
 
 This project is licensed under the MIT License
+
+## References
+
+Scottish Government (2016) ‘The Scottish Index of Multiple Deprivation (SIMD)’, pp. 1–20.  
+Skupin, A. and Agarwal, P. (2008) ‘Introduction: What is a Self-Organizing Map?’, Self-Organising Maps:
+Applications in Geographic Information Science, pp. 1–20.  
+Vesanto, J. and Alhoniemi, E. (2000) ‘Clustering of the self-organizing map’, IEEE Transactions on Neural
+Networks, 11(3), pp. 586–600.  
