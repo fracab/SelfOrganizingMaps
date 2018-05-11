@@ -10,7 +10,7 @@ with multiple variables and observations it performs both (1) clustering and (2)
 * The dimensional reduction takes place when the SOM represents high dimensional data (many variables) in a 2-dimensional space, consisting of a grid of cells. These characteristics make the SOM a very good tool for initial data-mining exploration (Vesanto and Alhoniemi, 2000).
 
 ## Content
-### Folsers
+### Folders
 
 A step by step series of examples that tell you have to get a development env running
 
@@ -63,7 +63,7 @@ library(MASS)
 
 ## Authors
 
-* **Marco Pizzolato** - *MSc GIS* -
+**Marco Pizzolato** - *MSc GIS* -
 
 ## License
 
@@ -71,8 +71,8 @@ This project is licensed under the MIT License
 
 ## References
 
-- Scottish Government (2016) ‘The Scottish Index of Multiple Deprivation (SIMD)’, pp. 1–20.  
-Skupin, A. and Agarwal, P. (2008) ‘Introduction: What is a Self-Organizing Map?’, Self-Organising Maps:
-Applications in Geographic Information Science, pp. 1–20.  
-Vesanto, J. and Alhoniemi, E. (2000) ‘Clustering of the self-organizing map’, IEEE Transactions on Neural
-Networks, 11(3), pp. 586–600.  
+\- Scottish Government (2016) ‘The Scottish Index of Multiple Deprivation (SIMD)’, pp. 1–20.  
+\-Skupin, A. and Agarwal, P. (2008) ‘Introduction: What is a Self-Organizing Map?’, Self-Organising Maps:
+  Applications in Geographic Information Science, pp. 1–20.  
+\-Vesanto, J. and Alhoniemi, E. (2000) ‘Clustering of the self-organizing map’, IEEE Transactions on Neural
+  Networks, 11(3), pp. 586–600.  
