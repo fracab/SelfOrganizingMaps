@@ -1,10 +1,10 @@
 # Self Organizing Maps
 
-This project uses a machine learning methodology to explore spatial data and test the efficacy of the Scottish Index of Multi Deprivartion (SIMD) (Scottish Government, 2016).
+This project uses a machine learning methodology to explore spatial data and test the efficacy of the Scottish Index of Multi Deprivation (SIMD) (Scottish Government, 2016).
 
 ## Background
 
-The Self Organizing maps (SOM) is an algorithm belonging to the broad family of the Artificial Neural Networks. Given a dataset
+The Self Organizing Maps (SOM) is an algorithm belonging to the broad family of the Artificial Neural Networks. Given a dataset
 with multiple variables and observations it performs both (1) clustering and (2) dimensional reduction (Skupin and Agarwal, 2008).  
 * Clustering means that the SOM algorithm evaluates the similarities and the differences between the observations, grouping together the ones that are more similar.  
 * The dimensional reduction takes place when the SOM represents high dimensional data (many variables) in a 2-dimensional space, consisting of a grid of cells. These characteristics make the SOM a very good tool for initial data-mining exploration (Vesanto and Alhoniemi, 2000).
@@ -12,53 +12,42 @@ with multiple variables and observations it performs both (1) clustering and (2)
 ## Content
 ### Folders
 
-A step by step series of examples that tell you have to get a development env running
+__data:__ this folder contains the source data. Here are also saved also the .csv outputs;
+__images:__ in this folder are saved all the graphics output;
+__shapefile:__ this folder contains the original shapefile. Here is also saved also the .shp output.
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+The dataset is not the original dataset downloadable from the Scottish Government website. It has been cleaned and tailored on the Edinburgh Local Authority area.   
 
 ### Inputs
 
-Explain how to run the automated tests for this system
+__SIMD_2016_edi_ranks.csv__
+__SIMD_2016_edimburgh.csv__
+__PivotGraph.csv__
 
 ### Otputs
 
-Explain what these tests test and why
 
-```
-Give an example
-```
+
 ## Requirements
 
-**Built With:** * [R](https://www.rstudio.com/)
+**Built With:** **[R](https://www.rstudio.com/)
 
 **Packages to install:**
 
 ```
-library(kohonen)
-library(ggplot2)
-library(ggmap)
-library(rgdal)
-library(gridExtra)
-library(grid)
-library(rgeos)
-library(maptools)
-library(broom)
-library(dplyr)
-library(data.table)
-library(tidyr)
-library(MASS)
+install.packages(“kohonen”)
+install.packages(“ggplot2”)
+install.packages(“ggmap”)
+install.packages(“rgdal”)
+install.packages(“gridExtra”)
+install.packages(“grid”)
+install.packages(“rgeos”)
+install.packages(“maptools”)
+install.packages(“broom”)
+install.packages(“dplyr”)
+install.packages(“data.table”)
+install.packages(“tidyr”)
+install.packages(“MASS”)
 ```
 
 ## Authors
