@@ -40,16 +40,25 @@ Explain what these tests test and why
 Give an example
 ```
 ## Requirements
-### Built With
 
-* [R](https://www.rstudio.com/)
+**Built With:** * [R](https://www.rstudio.com/)
 
-### Packages to install
-
-What things you need to install the software and how to install them
+**Packages to install:**
 
 ```
-list of packages
+library(kohonen)
+library(ggplot2)
+library(ggmap)
+library(rgdal)
+library(gridExtra)
+library(grid)
+library(rgeos)
+library(maptools)
+library(broom)
+library(dplyr)
+library(data.table)
+library(tidyr)
+library(MASS)
 ```
 
 ## Authors
@@ -62,7 +71,7 @@ This project is licensed under the MIT License
 
 ## References
 
-Scottish Government (2016) ‘The Scottish Index of Multiple Deprivation (SIMD)’, pp. 1–20.  
+- Scottish Government (2016) ‘The Scottish Index of Multiple Deprivation (SIMD)’, pp. 1–20.  
 Skupin, A. and Agarwal, P. (2008) ‘Introduction: What is a Self-Organizing Map?’, Self-Organising Maps:
 Applications in Geographic Information Science, pp. 1–20.  
 Vesanto, J. and Alhoniemi, E. (2000) ‘Clustering of the self-organizing map’, IEEE Transactions on Neural
