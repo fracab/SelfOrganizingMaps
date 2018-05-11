@@ -6,8 +6,8 @@ This project uses a machine learning methodology to explore spatial data and tes
 
 The Self Organizing maps (SOM) is an algorithm belonging to the broad family of the Artificial Neural Networks. Given a dataset
 with multiple variables and observations it performs both (1) clustering and (2) dimensional reduction (Skupin and Agarwal, 2008).  
-Clustering means that the SOM algorithm evaluates the similarities and the differences between the observations, grouping together the ones that are more similar.  
-The dimensional reduction takes place when the SOM represents high dimensional data (many variables) in a 2-dimensional space, consisting of a grid of cells. These characteristics make the SOM a very good tool for initial data-mining exploration (Vesanto and Alhoniemi, 2000).
+* Clustering means that the SOM algorithm evaluates the similarities and the differences between the observations, grouping together the ones that are more similar.  
+* The dimensional reduction takes place when the SOM represents high dimensional data (many variables) in a 2-dimensional space, consisting of a grid of cells. These characteristics make the SOM a very good tool for initial data-mining exploration (Vesanto and Alhoniemi, 2000).
 
 ## Content
 ### Folsers
