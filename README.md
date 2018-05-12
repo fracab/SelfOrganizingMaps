@@ -12,21 +12,25 @@ with multiple variables and observations it performs both (1) clustering and (2)
 ## Content
 ### Folders
 
-__data:__ this folder contains the source data. Here are also saved also the .csv outputs;
-__images:__ in this folder are saved all the graphics output;
-__shapefile:__ this folder contains the original shapefile. Here is also saved also the .shp output.
-
+__data:__ this folder contains the source data. Here are also saved also the .csv outputs;  
+__images:__ in this folder are saved all the graphics output;  
+__shapefile:__ this folder contains the original shapefile. Here is also saved also the .shp output.  
+  
 The dataset is not the original dataset downloadable from the Scottish Government website. It has been cleaned and tailored on the Edinburgh Local Authority area.   
 
 ### Inputs
 
-__SIMD_2016_edi_ranks.csv__
-__SIMD_2016_edimburgh.csv__
-__PivotGraph.csv__
+__SIMD_2016_edi_ranks.csv__  
+__SIMD_2016_edimburgh.csv__  
+__PivotGraph.csv__   
+__Edimburgh2.shp__  
 
 ### Otputs
 
-
+__som_stats_red.csv__  
+__SomStats.csv__  
+__som_results.shp__  
+__graphs in .jpeg format__  
 
 ## Requirements
 
